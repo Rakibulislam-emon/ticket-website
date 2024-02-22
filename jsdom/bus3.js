@@ -1,7 +1,5 @@
-function mmPrt(){
-    const nextbutton = document.getElementById('new')
-    nextbutton.classList.add('hidden')
-
-    const sucessPrt =document.getElementById('suc')
-    sucessPrt.classList.remove('hidden')
-}
+const buyTickets = document.getElementById('buyticket')
+buyTickets.addEventListener('click',function(){
+    let paribahanSection = document.getElementById('paribahan');
+    paribahanSection.scrollIntoView({behavior: "smooth"})
+})
